@@ -1,0 +1,35 @@
+after creating new repo i follow this steps to create new branch
+
+to to list all the branches i have at frist
+     $git branch
+i will find that i have only one branch called main
+so i will create 2 new branches called dev and test
+      $git branch dev
+      $git branch test
+no to check the branches
+      $git branch 
+i will find the main branch and my 2 new branches dev and test
+then i will switch to the dev branch 
+      $git checkout dev
+i will create new file and write to each of them
+      $touch alaa-branch
+      $touch alaa-deletebransh
+then i will add this files to the staging area
+      $git add .
+then i will commit to local area
+      $git commit -m "explain how to create,merage and delete branch"
+then i will push the new branches to github
+      $git push origin dev
+      $git push origin test
+to merage from main branch to dev and test branches
+i will switch to the main branch
+      $git checkout main
+merage main with branches
+      $git merage dev
+      $git merage test
+i could check the branches and list content of main branch to be sure all edit on dev and test is now on main too
+      $git branch
+      $git ls -a
+now i will push the edits on the main branch
+      $git push origin main
+ 

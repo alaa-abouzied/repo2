@@ -1,0 +1,11 @@
+to delete dev branch on remote server
+	$git push origin :dev
+to delete dev branch on local server
+	$git branch -d dev
+to check if it has deleted correctlt
+	$git branch
+
+to delete dev branch without merage it
+--i should get out of it at frist and go to the main branch
+	$git checkout main
+	$git branch -D dev
