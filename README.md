@@ -28,3 +28,5 @@ foobar.singularize("phenomena") # Returns "phenomena"
 
 # License 
 [MIT]()
+
+![iti](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7VH27mYFzU5s_cyVKLTH_3JVJORHZRf3tXw&usqp=CAU)
