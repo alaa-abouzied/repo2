@@ -1,0 +1,16 @@
+i have 2 types of tags
+1)lihtwighted tages
+	$git tag v1.4
+this will add a tag to the last commit
+2)annoted tags
+here i can add some information 
+	$git tag -a v1.4 -m "annoted tag called v1.4"
+i can select which commit i want to add this tag to using first 7 characters from this commit
+	$git log --pretty=oneline
+here i could get my characters
+now i will add annoted tag to the desired commit
+	$git tag -a v1.4 c00fb62 -m "this is annoted tag called v1.4 applied to commit c00fb62"
+then to push this tag to git hub
+	$git push origin v1.4
+and push this edits to main
+	$git push origin main 

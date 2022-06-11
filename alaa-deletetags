@@ -1,0 +1,6 @@
+to delete tag fro local without pushing it
+	$git tag -d v1.4
+to delete a tag remotly
+	$git bush origin --delete v1.4
+to see all remotes tag to be sure the tagged has deleted correctly
+	$git ls-remote --tags origin
