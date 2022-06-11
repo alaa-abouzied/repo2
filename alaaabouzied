@@ -1,0 +1,15 @@
+to clone create directory
+1) create directory
+   $mkdir repo2
+2)make it the current directory
+   $cd repo2
+3)git clone
+    $git clone git@github.com:alaa-abouzied/repo2.git
+4)then create file
+    $touch alaaabouzied
+5)add all changes to the sataging area
+    $git add .
+6)commit all changes to the local server
+    $git commit -m "this file to explain the steps to push remotly"
+7)push all commits to remote server
+    $git push origin main
